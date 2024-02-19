@@ -8,7 +8,6 @@ Commands related to the workflow:
     git add .
     git commit -m "A message describing what you have done to make this snapshot different"
     git push
-
 Commands related to checking status or log history
     git show
     git status
@@ -37,11 +36,6 @@ Commands related to forking, making changes and merging
 
     branch -d <Branch> -> Delete locally
     git push origin --delete <Branch> -> Deelte on Github
-
-
-
-
-
 
 For example,
 
