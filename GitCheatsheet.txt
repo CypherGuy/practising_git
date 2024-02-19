@@ -7,6 +7,7 @@ Commands related to a remote repository:
 Commands related to the workflow:
     git add .
     git commit -m "A message describing what you have done to make this snapshot different"
+    git push
 
 Commands related to checking status or log history
     git show
