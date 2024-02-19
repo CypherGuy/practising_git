@@ -16,6 +16,32 @@ Commands related to checking status or log history
     git log --oneline -> Prints out just the subject line
 The basic Git syntax is program | action | destination.
 
+
+Commands related to forking, making changes and merging
+    git checkout -b <branch> -> Make a new local branch and change to it in your IDE
+    git push origin <branch> -> Push this local branch to Github
+    git branch -> View branch
+    git checkout <branch> -> Move to another branch in your IDE
+
+    Add, Commit and Push as normal
+    Ensure you're in your new branch before merging
+
+    git checkout main
+    git merge <branch> -> Merge branches
+
+    At this point you should notice your code change
+    git push origin main
+
+    Delete branch once done
+
+    branch -d <Branch> -> Delete locally
+    git push origin --delete <Branch> -> Deelte on Github
+
+
+
+
+
+
 For example,
 
 git add . is read as git | add | ., where the period represents everything in the current directory;
